@@ -1,0 +1,16 @@
+git init инициализация репозитория
+git config --global user.name "azesm"
+git config --global user.email "azesm@yahoo.com"
+git config --local user.name "azesm"
+git config --local user.email "azesm@yahoo.com"
+git add -A добавить в git все файлы
+git status статус добавленных файлов (красный - нет, зелёный - да)
+git commit -a -m"first commit" создание коммита в скобках описание изменений
+git log вывести все коммиты с названиями изменений
+
+git checkout СБРОСИТЬ ПРЕДЫДУЩИЕ ИЗМЕНЕНИЯ
+
+
+git push -u origin main
+
+
