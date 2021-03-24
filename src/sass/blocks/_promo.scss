@@ -1,0 +1,38 @@
+.promo {
+    min-height: 100vh;
+    position: relative;
+    background: url('../../img/main_bg.jpg') no-repeat 50%/cover;
+    padding-top: 205px;
+
+    &__title {
+        width: 535px;
+        margin-top: 10px;
+    }
+
+    &__btns {
+        margin-top: 25px;
+        display: flex;
+        width: 250px;
+    }
+
+    &__link {
+        color: #ffffff;
+    }
+
+    //width: 135px;
+    //height: 45px;
+    //background-color: $main-color;
+    //padding: 25px 12px;
+    //font-style: normal;
+    //font-weight: 700;
+    //font-size: 14px;
+    //line-height: 21px;
+    //color: #000000;
+    //&:hover {
+    //    background-color: $hover-color;
+    //    color: $hover-text;
+    //    box-shadow: 0 0 8px #FF8355;
+    //    transition: all 1.5s;
+    //}
+}
+}
