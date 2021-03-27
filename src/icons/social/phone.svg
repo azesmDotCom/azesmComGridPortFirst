@@ -1,92 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Creator: CorelDRAW -->
-
-<svg
-   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xml:space="preserve"
-   width="24"
-   height="24"
-   style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-   viewBox="0 0 58.282 58.282"
-   version="1.1"
-   id="svg14"
-   sodipodi:docname="phone.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
-   id="metadata18"><rdf:RDF><cc:Work
-       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><sodipodi:namedview
-   pagecolor="#ffffff"
-   bordercolor="#666666"
-   borderopacity="1"
-   objecttolerance="10"
-   gridtolerance="10"
-   guidetolerance="10"
-   inkscape:pageopacity="0"
-   inkscape:pageshadow="2"
-   inkscape:window-width="2560"
-   inkscape:window-height="1061"
-   id="namedview16"
-   showgrid="false"
-   inkscape:zoom="7.8666667"
-   inkscape:cx="15"
-   inkscape:cy="15"
-   inkscape:window-x="-8"
-   inkscape:window-y="-8"
-   inkscape:window-maximized="1"
-   inkscape:current-layer="Layer_x0020_1" />
- <defs
-   id="defs4"><linearGradient
-   id="linearGradient2298"
-   osb:paint="solid"><stop
-     style="stop-color:#fe5a1d;stop-opacity:1;"
-     offset="0"
-     id="stop2296" /></linearGradient>
-  <style
-   type="text/css"
-   id="style2">
-   <![CDATA[
-    .fil0 {fill:#1B1C1F}
-    .fil1 {fill:#1B1C1F;fill-rule:nonzero}
-   ]]>
-  </style>
- </defs>
- <g
-   id="Layer_x0020_1">
-  <metadata
-   id="CorelCorpID_0Corel-Layer" />
-  <g
-   id="_152222920"
-   transform="matrix(0,1,1,0,-0.00240875,0.002408)">
-   <path
-   id="_152222248"
-   class="fil0"
-   d="m 24.1857,22.4995 c -5.44655,3.14453 2.86367,18.724 8.82368,15.283 1.0584,1.83322 4.46756,7.73807 5.52595,9.57124 -2.51464,1.45186 -4.64315,2.36711 -7.55853,0.700539 -8.09458,-4.6273 -17.0046,-20.0543 -16.7511,-29.2558 0.08805,-3.19599 1.971,-4.44824 4.43399,-5.87024 1.0584,1.83316 4.46756,7.73801 5.52595,9.57124 z"
-   inkscape:connector-curvature="0"
-   style="fill:#fe5a1d;fill-opacity:1" />
-   <path
-   id="_150519168"
-   class="fil0"
-   d="m 26.4704,22.2399 c -0.588492,0.339781 -1.3458,0.136973 -1.68564,-0.451581 l -5.2095,-9.02316 c -0.339842,-0.588616 -0.137035,-1.34586 0.451519,-1.6857 l 2.73799,-1.58075 c 0.588554,-0.339842 1.34598,-0.13685 1.68576,0.451704 l 5.2095,9.0231 c 0.339781,0.588492 0.136912,1.3458 -0.451581,1.68558 l -2.73805,1.58081 z"
-   inkscape:connector-curvature="0"
-   style="fill:#fe5a1d;fill-opacity:1" />
-   <path
-   id="_226148072"
-   class="fil0"
-   d="m 40.7023,46.8904 c -0.588492,0.339781 -1.3458,0.136973 -1.68564,-0.451642 l -5.2095,-9.02316 c -0.339842,-0.588554 -0.137035,-1.34586 0.451519,-1.68564 l 2.73799,-1.58081 c 0.588554,-0.339781 1.34598,-0.136788 1.68576,0.451704 l 5.2095,9.0231 c 0.339781,0.588554 0.136912,1.34586 -0.451581,1.68564 l -2.73805,1.58081 z"
-   inkscape:connector-curvature="0"
-   style="fill:#fe5a1d;fill-opacity:1" />
-  </g>
-  <path
-   class="fil1"
-   d="M29.1409 -2.84495e-015l0.000431898 0 0 0.00678697c8.04997,0.0001234 15.335,3.26003 20.6045,8.52962 5.26928,5.26934 8.52907,12.5539 8.52931,20.6036l0.00678697 0 0 0.000925496 0 0.000431898 -0.00678697 0c-0.0001234,8.05003 -3.26003,15.335 -8.52962,20.6045 -5.26941,5.26928 -12.554,8.52907 -20.6037,8.52931l0 0.00678697 -0.000925496 0 -0.000431898 0 0 -0.00678697c-8.04997,-0.0001234 -15.3349,-3.26003 -20.6044,-8.52962 -5.26928,-5.26941 -8.52907,-12.554 -8.52931,-20.6037l-0.00678697 0 0 -0.000925496 0 -0.000431898 0.00678697 0c0.0001234,-8.04997 3.26003,-15.3349 8.52962,-20.6044 5.26934,-5.26928 12.5539,-8.52907 20.6036,-8.52931l0 -0.00678697 0.000925496 0zm0.000431898 3.47579l0 0.00678697 -0.000431898 0 -0.000925496 0 0 -0.00678697c-7.07918,0.000185099 -13.4939,2.87527 -18.1413,7.52262 -4.64766,4.6476 -7.52287,11.0626 -7.52293,18.1421l0.00678697 0 0 0.000431898 0 0.000925496 -0.00678697 0c0.000185099,7.07924 2.87527,13.4939 7.52262,18.1414 4.6476,4.64766 11.0626,7.52287 18.1421,7.52293l0 -0.00678697 0.000431898 0 0.000925496 0 0 0.00678697c7.07924,-0.000185099 13.4939,-2.87527 18.1414,-7.52262 4.64766,-4.6476 7.52287,-11.0626 7.52293,-18.1422l-0.00678697 0 0 -0.000431898 0 -0.000925496 0.00678697 0c-0.000185099,-7.07918 -2.87527,-13.4939 -7.52262,-18.1413 -4.6476,-4.64766 -11.0626,-7.52287 -18.1422,-7.52293z"
-   id="path11"
-   style="fill:#fe5a1d;fill-opacity:1" />
- </g>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" aria-hidden="true" width="24" height="24" focusable="false" data-prefix="fas" data-icon="phone-square-alt" class="svg-inline--fa fa-phone-square-alt fa-w-14" role="img" viewBox="0 0 448 512" version="1.1" id="svg4" sodipodi:docname="phone-square-alt-solid.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+    <metadata id="metadata10">
+        <rdf:RDF>
+            <cc:Work rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <defs id="defs8" />
+    <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" width="24" height="24" id="namedview6" showgrid="false" inkscape:zoom="0.4609375" inkscape:cx="224" inkscape:cy="256" inkscape:window-x="1326" inkscape:window-y="69" inkscape:window-maximized="0" inkscape:current-layer="svg4" />
+    <path fill="currentColor" d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48zm-16.39 307.37l-15 65A15 15 0 0 1 354 416C194 416 64 286.29 64 126a15.7 15.7 0 0 1 11.63-14.61l65-15A18.23 18.23 0 0 1 144 96a16.27 16.27 0 0 1 13.79 9.09l30 70A17.9 17.9 0 0 1 189 181a17 17 0 0 1-5.5 11.61l-37.89 31a231.91 231.91 0 0 0 110.78 110.78l31-37.89A17 17 0 0 1 299 291a17.85 17.85 0 0 1 5.91 1.21l70 30A16.25 16.25 0 0 1 384 336a17.41 17.41 0 0 1-.39 3.37z" id="path2" style="fill:#fe5a1d;fill-opacity:1" />
 </svg>
