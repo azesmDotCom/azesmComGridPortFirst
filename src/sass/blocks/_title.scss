@@ -3,16 +3,35 @@
     font-size: 36px;
     line-height: 50px;
     color: #ffffff;
+    &_fz14 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    &_fz14black {
+        font-size: 14px;
+        line-height: 21px;
+        color: $black-text;
+    }
     &_fz16 {
         font-size: 16px;
         font-weight: 700;
         line-height: 24px;
     }
+    &_fz16black {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        color: $black-text;
+    }
+    &_fz36 {
+        font-size: 36px;
+    }
+    &_fz36black {
+        font-size: 36px;
+        color: $black-text;
+    }
     &_fz48 {
         font-size: 40px;
     }
-    &_fz14 {
-        font-size: 14px;
-        line-height: 21px;
-    }
+    
 }
