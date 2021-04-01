@@ -5,11 +5,13 @@
     color: #ffffff;
     &_fz14 {
         font-size: 14px;
-        line-height: 21px;
+        line-height: 18px;
+        font-weight: 500;
     }
     &_fz14black {
         font-size: 14px;
-        line-height: 21px;
+        line-height: 18px;
+        font-weight: 500;
         color: $black-text;
     }
     &_fz16 {
@@ -23,6 +25,17 @@
         line-height: 24px;
         color: $black-text;
     }
+    &_fz20 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+    }
+    &_fz20black {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+        color: $black-text;
+    }
     &_fz36 {
         font-size: 36px;
     }
@@ -33,5 +46,8 @@
     &_fz48 {
         font-size: 40px;
     }
-    
+    &_fz48 {
+        font-size: 40px;
+        color: $black-text;
+    }
 }
