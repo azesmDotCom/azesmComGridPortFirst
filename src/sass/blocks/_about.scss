@@ -56,9 +56,11 @@
         &-circle {
             position: relative;
             padding: 15px 0 0 15px;
-            @include before_circle;
+            @include before_circle-text;
+
             &:before {
                 top: 0;
+
             }
         }
 
@@ -67,7 +69,7 @@
             margin-top: 6px;
             font-size: 12px;
             line-height: 18px;
-            
+
         }
     }
 
