@@ -23,12 +23,15 @@
         padding: 60px 65px 0 65px;
         grid-template-columns: repeat(2, 425px);
         column-gap: 135px;
+
     }
 
     &__column {
         &-title {
             position: relative;
             padding-left: 35px;
+            margin-bottom: -5px;
+
 
             &::before {
                 content: "";
@@ -52,29 +55,67 @@
 
         ul {
             list-style-type: none;
+
             li {
                 position: relative;
+
                 &:after {
                     content: '';
                     position: absolute;
-                    width: 2px;
-                    height: 100%;
-                    top: -14px;
+                    width: 48px;
+                    height: 2px;
+                    top: 68px;
                     left: 0;
                     background-color: $hover-text;
                 }
             }
         }
     }
+
     &__item {
-        &-head {
-            padding: 45px 0 0 100px;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 2px;
+            height: 120%;
+
+            background-color: $hover-text;
+
         }
+
+        &-head {
+            position: relative;
+            padding: 45px 0 0 100px;
+
+            h4 {
+                margin-bottom: 0;
+            }
+        }
+
         &-body {
             padding-left: 43px;
             margin-top: 12px;
             font-weight: 500;
-            font-size: 14px;
+            font-size: 12px;
+        }
+
+        &-icon {
+            position: absolute;
+            top: 50px;
+            left: 45px;
+            @include before_circle-text;
+
+            img {
+                position: absolute;
+                left: 17px;
+                top: 10px;
+            }
+        }
+
+        &-location {
+            margin-top: 5px;
         }
     }
 }
