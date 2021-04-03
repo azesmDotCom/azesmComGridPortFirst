@@ -61,4 +61,18 @@
         font-size: 40px;
         color: $black-text;
     }
+    &__section-title {
+        position: relative;
+        text-align: center;
+        @include before_circle;
+
+        &:before {
+            top: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__section-subtitle {
+        text-align: center;
+    }
 }
