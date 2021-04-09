@@ -51,7 +51,7 @@
         display: grid;
         grid-template: 45px 190px 45px / repeat(2, 280px);
         justify-content: space-between;
-        row-gap: 30px;
+        row-gap: 36px;
         label {
             display: block;
             position: absolute;
@@ -91,4 +91,7 @@
             font-weight: 500;
         }
     }
+    //&__btn {
+    //    border: none;
+    //}
 }
