@@ -1,4 +1,5 @@
 .policy {
+    
     display: flex;
     margin: 10px 20px 60px 20px;
 
@@ -17,5 +18,31 @@
         margin-top: 14px;
 
 
+    }
+
+    &__back {
+        margin-top: 25px;
+        display: flex;
+        width: 123px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    &__link {
+
+        color: $black-text;
+        font-weight: 700;
+
+        &:hover {
+            color: $hover-text;
+            transition: all 1s;
+            text-decoration: none;
+        }
+        .btn {
+            align-items: center;
+        justify-content: center;
+        }
     }
 }
