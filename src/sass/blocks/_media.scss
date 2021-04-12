@@ -69,12 +69,14 @@
                     column-gap: 14px;
                 }
             }
+
             &__text {
                 padding-top: 10px;
                 font-size: 12px;
                 line-height: 18px;
             }
         }
+
         .title {
             &_fz36black {
                 font-size: 26px;
@@ -117,15 +119,34 @@
                 }
             }
         }
+
         .about {
+            padding-top: 44px;
+
             &__wrapper {
-                
+                grid-template: 400px auto auto / 1fr;
+            }
+
+            &__photo {
+                display: grid;
+                justify-content: center;
+                //grid-row: unset;
+                //grid-template-columns: 1fr;
+            }
+
+            &__skills {
+                grid-template-columns: repeat(2, 260px);
+
+                &-item {
+                    grid-template-columns: 40px 200px;
+                    column-gap: 20px;
+                }
             }
         }
 
         .menu {
             &__block {
-                width: 45%;
+                width: 60%;
                 padding-left: 20px;
             }
         }
@@ -151,8 +172,31 @@
             &__list {
                 margin-top: 50px;
             }
-
         }
+
+        .about {
+            &__wrapper {
+                grid-template: 340px auto auto / 1fr;
+            }
+
+            &__skills {
+                grid-template-columns: 1fr;
+            }
+            &__photo {
+                //display: grid;
+                //justify-content: center;
+                //grid-row: unset;
+                grid-template-columns: 1fr;
+                
+            }
+        }
+
+        .title {
+            &_fz36black {
+            font-size: 20px;
+        }
+        } 
+
 
     }
 
