@@ -2,7 +2,6 @@
     .container {
         max-width: 1200px;
     }
-
     .sidepanel {
         display: none;
     }
@@ -12,260 +11,314 @@
     .container {
         max-width: 960px;
     }
-
     .about {
         padding-top: 60px;
-
         &__wrapper {
             grid-template-columns: 400px 520px;
             column-gap: 20px;
             row-gap: 10px;
         }
-
         &__skills {
             grid-template: repeat(2, minmax(115px, auto))/repeat(2, 250px);
             column-gap: 20px;
-
             &-item {
                 grid-template-columns: 40px 195px;
                 column-gap: 15px;
             }
         }
-        
-
     }
-
-    @media (max-width: 992px) {
-        .container {
-            max-width: 720px;
-        }
-
-        .menu {
-            &__block {
-                width: 45%;
-                padding-left: 20px;
-                padding-top: 40px;
-            }
-
-            &__social {
-                bottom: 20px;
-            }
-
-            &__list {
-                margin-top: 50px;
-            }
-        }
-
-        .about {
-            &__wrapper {
-                grid-template-columns: 300px 380px;
-            }
-
-            &__skills {
-                grid-template-columns: 380px;
-                grid-auto-rows: minmax(115px, auto);
-
-                &-item {
-                    grid-template-columns: 40px 310px;
-                    column-gap: 14px;
-                }
-            }
-
-            &__text {
-                padding-top: 10px;
-                font-size: 12px;
-                line-height: 18px;
-            }
-        }
-
-        .title {
-            &_fz36black {
-                font-size: 26px;
-            }
+    .resume {
+        &__wrapper {
+            padding: 40px 20px 0 20px;
+            column-gap: 80px;
         }
     }
-
-    @media (max-width: 768px) {
-        .container {
-            max-width: 540px;
+    .skills {
+        &__items {
+            grid-template-columns: repeat(auto-fit, 270px);
+            justify-content: space-between;
         }
+        &__ratings {
+            grid-template-columns: repeat(auto-fit, 350px);
+            grid-auto-rows: minmax(70px, auto);
+            justify-content: space-between;
+            padding: 0 30px;
+        }
+    }
+}
 
-        .title {
-            &_fz16 {
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    //.menu {
+    //    &__block {
+    //        width: 45%;
+    //        padding-left: 20px;
+    //        padding-top: 40px;
+    //    }
+    //    &__social {
+    //        bottom: 20px;
+    //    }
+    //    &__list {
+    //        margin-top: 50px;
+    //    }
+    //}
+    .divider {
+        margin: 0 auto;
+    }
+    .title {
+        &_fz36black {
+            font-size: 26px;
+        }
+    }
+    .about {
+        &__wrapper {
+            grid-template-columns: 300px 380px;
+        }
+        &__skills {
+            grid-template-columns: 380px;
+            grid-auto-rows: minmax(115px, auto);
+            &-item {
+                grid-template-columns: 40px 310px;
+                column-gap: 14px;
+            }
+        }
+        &__text {
+            padding-top: 10px;
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+    .resume {
+        &__wrapper {
+            column-gap: 60px;
+            grid-template-columns: repeat(2,320px);
+        }
+    }
+    .skills {
+        &__items {
+            padding: 0 20px;
+        }
+        &__ratings {
+            grid-template-columns: repeat(auto-fit, 320px);
+            justify-content: space-between;
+            padding: 0;
+            column-gap: 0;
+            &-line {
+                width: 100%;
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .title {
+        &_fz16 {
+            font-size: 14px;
+        }
+        &_fz48 {
+            font-size: 24px;
+        }
+    }
+    .promo {
+        padding-top: 120px;
+        &__title {
+            width: 300px;
+            line-height: 32px;
+        }
+        &__btns {
+            .btn {
+                padding: 10px 16px;
                 font-size: 14px;
             }
-
-            &_fz48 {
-                font-size: 24px;
+            .btn_not {
+                font-size: 14px;
+                margin-left: 29px;
             }
         }
-
-        .promo {
-            padding-top: 120px;
-
-            &__title {
-                width: 300px;
-                line-height: 32px;
-            }
-
-            &__btns {
-                .btn {
-                    padding: 10px 16px;
-                    font-size: 14px;
-                }
-
-                .btn_not {
-                    font-size: 14px;
-                    margin-left: 29px;
-                }
+    }
+    .about {
+        padding-top: 44px;
+        &__wrapper {
+            grid-template: 400px auto auto / 1fr;
+        }
+        &__photo {
+            display: grid;
+            justify-content: center;
+        }
+        &__skills {
+            grid-template-columns: repeat(2, 260px);
+            &-item {
+                grid-template-columns: 40px 200px;
+                column-gap: 20px;
             }
         }
-
-        .about {
-            padding-top: 44px;
-
-            &__wrapper {
-                grid-template: 400px auto auto / 1fr;
-            }
-
-            &__photo {
-                display: grid;
-                justify-content: center;
-                //grid-row: unset;
-                //grid-template-columns: 1fr;
-            }
-
-            &__skills {
-                grid-template-columns: repeat(2, 260px);
-
-                &-item {
-                    grid-template-columns: 40px 200px;
-                    column-gap: 20px;
-                }
+    }
+    .resume {
+        padding-top: 40px;
+        &__wrapper {
+            grid-template-columns: 1fr;
+            column-gap: 60px;
+            row-gap: 40px;
+        }
+    }
+    .skills {
+        padding-top: 40px;
+        &__items {
+            padding: 0;
+            justify-content: center;
+            gap: 20px;
+        }
+        &__ratings {
+            grid-template-columns: repeat(auto-fit, 320px);
+            grid-auto-rows: minmax(70px, auto);
+            justify-content: center;
+            margin-top: 40px;
+            &-line {
+                width: 100%;
             }
         }
-
-        .menu {
-            &__block {
-                width: 60%;
-                padding-left: 20px;
-            }
-        }
-
     }
 
-    @media (max-width: 576px) {
-        .container {
-            width: 100%;
-            padding: 0 10px;
+    //.menu {
+    //    &__block {
+    //        width: 60%;
+    //        padding-left: 20px;
+    //    }
+    //}
+}
+
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .menu {
+        &__block {
+            width: 250px;
+            padding-left: 20px;
         }
 
-        .menu {
-            &__block {
-                width: 80%;
-                padding-left: 20px;
-            }
-
-            &__link {
-                font-size: 16px;
-            }
-
-            &__list {
-                margin-top: 50px;
-            }
+        &__link {
+            font-size: 16px;
         }
 
-        .about {
-            &__wrapper {
-                grid-template: 340px auto auto / 1fr;
-            }
+        &__list {
+            margin-top: 50px;
+        }
+    }
 
-            &__skills {
-                grid-template-columns: 1fr;
-            }
-            &__photo {
-                //display: grid;
-                //justify-content: center;
-                //grid-row: unset;
-                grid-template-columns: 1fr;
-                
-            }
+    .about {
+        &__wrapper {
+            grid-template: 340px auto auto / 1fr;
         }
 
-        .title {
-            &_fz36black {
+        &__skills {
+            grid-template-columns: 1fr;
+        }
+
+        &__photo {
+            //display: grid;
+            //justify-content: center;
+            //grid-row: unset;
+            grid-template-columns: 1fr;
+
+        }
+    }
+
+    .title {
+        &_fz36black {
             font-size: 20px;
         }
-        } 
+    }
+    .resume {
+        &__wrapper {
+            padding: 40px 5px 0 5px;
+        }
+    }
+    .skills {
+        &__items {
+            margin-top: 20px;
+        }
+        &__ratings {
+            grid-template-columns: repeat(auto-fit,300px);
+        }
+    }
+}
 
 
+
+@media (max-width: 380px) {
+    .container {
+        padding: 0 14px;
     }
 
-    @media (max-width: 380px) {
-        .container {
-            padding: 0 14px;
+    .promo {
+        padding-top: 120px;
+
+        &__title {
+            margin-top: 50px;
         }
 
-        .promo {
-            padding-top: 120px;
-
-            &__title {
-                margin-top: 50px;
-            }
-
-            &__btns {
-                margin-top: 60px;
-                width: 280px;
-                justify-content: space-around;
-            }
-        }
-
-        .title {
-
-            &_fz16 {
-                font-size: 12px;
-
-            }
-
-            &_fz48 {
-                font-size: 22px;
-            }
-        }
-
-        .menu {
-            &__close {
-                left: 260px;
-            }
-
-            &__block {
-                width: 85%;
-                padding-top: 90px;
-            }
-
-            &__link {
-                font-size: 18px;
-
-                &::before {
-                    top: 7px;
-                }
-            }
+        &__btns {
+            margin-top: 60px;
+            width: 280px;
+            justify-content: space-around;
         }
     }
 
-    @media (max-width: 322px) {
-        .container {
-            padding: 0 14px;
+    .title {
+
+        &_fz16 {
+            font-size: 12px;
+
         }
 
-        .menu {
-            &__close {
-                left: 260px;
-            }
+        &_fz48 {
+            font-size: 22px;
+        }
+    }
 
-            &__block {
-                width: 100%;
-                padding-top: 90px;
+    .menu {
+        &__close {
+            left: 260px;
+        }
+
+        &__block {
+            width: 85%;
+            padding-top: 90px;
+        }
+
+        &__link {
+            font-size: 18px;
+
+            &::before {
+                top: 7px;
             }
+        }
+    }
+}
+
+@media (max-width: 322px) {
+    .container {
+        padding: 0 14px;
+    }
+
+    .menu {
+        &__close {
+            left: 260px;
+        }
+
+        &__block {
+            width: 100%;
+            padding-top: 90px;
         }
     }
 }
