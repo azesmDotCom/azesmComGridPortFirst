@@ -24,11 +24,11 @@
         top: -24px;
         right: -34px;
         font-size: 46px;
-        color: $main-color;
+        color: $hover-color;
         cursor: pointer;
 
         &:hover {
-            color: $hover-color;
+            color: $main-color;
             transition: all 0.6s;
         }
     }

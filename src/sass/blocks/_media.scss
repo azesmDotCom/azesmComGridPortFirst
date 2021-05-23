@@ -474,4 +474,10 @@
             padding-top: 90px;
         }
     }
+    .modal {
+        &__close {
+            top: -20px;
+            right: 0;
+        }
+    }
 }

@@ -83,7 +83,7 @@
         <span class="long"></span>
         <span></span>
     </div>
-    <section class="promo">
+    <section  id="up" class="promo">
         <div class="container">
             <div class="title title_fz16 promo__subtitle">Вёрстка и наполнение контентом вашего сайта</div>
             <h1 class="title title_fz48 promo__title">
@@ -542,19 +542,31 @@
 
 
 
-                    <form action="#" class="contacts__form" id="contacts">
+                    <form action="#" class="contacts__form form__php" id="contacts">
+                        <input type="hidden" name="project_name" value="azesm.com">
+                        <input type="hidden" name="admin_email" value="azesm08@yandex.ru">
+                        <input type="hidden" name="form_subject" value="Form Subject">
+                        <!-- END Hidden Required Fields -->
+
+                        <!--<input type="text" name="Name" placeholder="You name..." required><br>
+		<input type="text" name="E-mail" placeholder="You E-mail..." required><br>
+		<input type="text" name="Phone" placeholder="You phone..."><br>
+		<button>Send</button>-->
+
                         <div class="contacts__input">
-                            <input required type="text" name="name" maxlength="30" id="name">
+                            <input type="text" name="Name" placeholder="Напишите ваше имя..." maxlength="30" required>
                             <label for="name">Ваше имя</label>
                         </div>
 
                         <div class="contacts__input">
-                            <input required type="email" name="email" maxlength="30" id="email">
+                            <input type="email" name="E-mail" placeholder="Напишите ваш E-mail..." maxlength="30"
+                                required>
                             <label for="email">Ваша почта</label>
                         </div>
 
                         <div class="contacts__textarea">
-                            <textarea name="text" maxlength="500" id="text"></textarea>
+                            <textarea type="text" name="Phone" placeholder="........" maxlength="500"
+                                required></textarea>
                             <label for="text">Ваше сообщение</label>
                         </div>
                         <div class="contacts__triggers">
@@ -583,14 +595,20 @@
         </div>
     </footer>
 
-    <!--<section class="overlay">
+    <section class="overlay">
         <div class="modal modal_mini" id="thanks">
             <div class="modal__close">&times;</div>
             <div class="modal__subtitle">Спасибо за заявку!</div>
             <div class="modal__descr">свяжусь с Вами в кратчайшее время!</div>
         </div>
-    </section>-->
+    </section>
 
+    <a href="#up" class="pageup">
+        <img src="icons/up.svg" alt="up">
+    </a>
+
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/script.js"></script>
 </body>
