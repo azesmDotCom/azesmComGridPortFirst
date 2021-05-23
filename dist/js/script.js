@@ -59,8 +59,6 @@ $(document).ready(function () {
             //$('#consultation, #order').fadeOut();
             $('.overlay, #thanks').fadeIn('slow');
 
-
-
             $('form').trigger('reset');
         });
         return false;
