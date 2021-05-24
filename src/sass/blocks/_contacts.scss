@@ -30,14 +30,19 @@
     }
     &__social {
         margin-bottom: 20px;
+        a:hover {
+            color: #fff;
+        }
     }
 
     &__link {
         margin-right: 10px;
+        
 
         img {
             max-width: 30px;
             max-height: 30px;
+            
         }
     }
 

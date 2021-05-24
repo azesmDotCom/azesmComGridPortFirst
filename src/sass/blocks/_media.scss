@@ -404,6 +404,7 @@
             line-height: 18px;
         }
     }
+    
 }
 
 
@@ -455,6 +456,12 @@
             &::before {
                 top: 7px;
             }
+        }
+    }
+    .modal {
+        &__close {
+            top: -54px;
+            right: -20px;
         }
     }
 }
