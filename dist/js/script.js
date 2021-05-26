@@ -20,7 +20,24 @@ $(document).ready(function () {
     });
 
 
+    $("form").submit(function () { //Change
+        var th = $(this);
+        $.ajax({
+            type: "POST",
+            url: "mail.php", //Change
+            data: th.serialize()
+        }).done(function () {
+            $(this).find("input").val("");
+            //$('#consultation, #order').fadeOut();
+            $('.overlay, #thanks').fadeIn('slow');
+            setTimeout(function () {
+                // Done Functions
+                th.trigger("reset");
+            }, 1000);
+        });
+        return false;
 
+    });
 
 
     //Scroll
@@ -47,24 +64,24 @@ $(document).ready(function () {
         $('.overlay, #consultation, #thanks, #order').fadeOut('slow');
     });
 
+    //-----------------------Petform----------------------------------
+    //$('form').submit(function (e) {
+    //    e.preventDefault();
+    //    $.ajax({
+    //        type: "POST",
+    //        url: "mailer/smart.php",
+    //        data: $(this).serialize()
+    //    }).done(function () {
+    //        $(this).find("input").val("");
+    //        //$('#consultation, #order').fadeOut();
+    //        $('.overlay, #thanks').fadeIn('slow');
 
-    $('form').submit(function (e) {
-        e.preventDefault();
-        $.ajax({
-            type: "POST",
-            url: "mailer/smart.php",
-            data: $(this).serialize()
-        }).done(function () {
-            $(this).find("input").val("");
-            //$('#consultation, #order').fadeOut();
-            $('.overlay, #thanks').fadeIn('slow');
 
 
-
-            $('form').trigger('reset');
-        });
-        return false;
-    });
+    //        $('form').trigger('reset');
+    //    });
+    //    return false;
+    //});
 
 
 });
@@ -79,7 +96,9 @@ $(document).ready(function () {
 //        url: "mail.php", //Change
 //        data: th.serialize()
 //    }).done(function() {
-//        alert("Отправлено!");
+//        $(this).find("input").val("");
+//        //$('#consultation, #order').fadeOut();
+//        $('.overlay, #thanks').fadeIn('slow');
 //        setTimeout(function() {
 //            // Done Functions
 //            th.trigger("reset");
