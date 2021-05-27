@@ -4,10 +4,22 @@
     background: url('../img/main_bg.jpg') no-repeat 50%/cover;
     padding-top: 205px;
 
+    &__logo {
+        position: relative;
+        top: -150px;
+        width: 250px;
+        
+
+        img {
+            width: 25%;
+        }
+    }
+
     &__title {
         width: 535px;
         margin-top: 10px;
     }
+
     &__subtitle {
         position: relative;
         padding-left: 10px;
@@ -34,5 +46,5 @@
         }
     }
 
-    
+
 }

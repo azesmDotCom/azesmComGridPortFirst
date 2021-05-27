@@ -23,6 +23,8 @@
     }
 }
 
+
+
 .menu {
     position: fixed;
     top: 0;
@@ -38,8 +40,11 @@
         left: 0;
         visibility: visible;
         opacity: 1;
-        
+
     }
+
+   
+
 
     &__block {
         position: relative;
@@ -56,7 +61,7 @@
         position: absolute;
         top: 25px;
         left: 290px;
-        cursor: pointer;        
+        cursor: pointer;
     }
 
     &__list {
