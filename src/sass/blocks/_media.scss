@@ -11,6 +11,13 @@
 @media (max-width: 1200px) {
     .container {
         max-width: 960px;
+
+    }
+
+    .promo {
+        &__btns {
+            margin-top: 100px;
+        }
     }
 
     .about {
@@ -169,14 +176,18 @@
             margin-top: 15px;
         }
     }
+
     .contacts {
         padding: 50px 0 50px 0;
+
         &__wrapper {
             grid-template-columns: 300px 400px;
         }
+
         &__form {
             grid-template: 45px 190px 45px / repeat(2, 195px);
         }
+
         &__btn {
             padding: 8px 25px;
             line-height: 16px;
@@ -186,9 +197,29 @@
 }
 
 @media (max-width: 768px) {
+    .hamburger,
+    .menu {
+        display: none;
+    }
     .container {
         max-width: 540px;
         margin-top: 100px;
+    }
+
+    .promo {
+        &__logo {
+            position: relative;
+            top: -150px;
+            width: 250px;
+
+            img {
+                width: 45%;
+            }
+        }
+
+        &__btns {
+            margin-top: 100px;
+        }
     }
 
     .title {
@@ -309,14 +340,18 @@
             justify-content: center;
         }
     }
+
     .contacts {
         padding-top: 40px;
+
         &__photo {
             display: none;
         }
+
         &__wrapper {
             grid-template-columns: 1fr;
         }
+
         &__form {
             grid-template: 45px 190px 45px / repeat(2, 250px);
         }
@@ -378,26 +413,32 @@
             grid-template-columns: repeat(auto-fit, 300px);
         }
     }
+
     .contacts {
         padding-bottom: 0;
+
         &__form {
             grid-template: 45px 45px 190px minmax(45px, auto) / 1fr;
         }
+
         &__textarea {
             grid-column: unset;
             width: 100%;
         }
+
         &__triggers {
             grid-column: unset;
             grid-template-columns: 1fr;
             column-gap: unset;
             row-gap: 20px;
         }
+
         &__btn {
             order: 2;
             max-width: 220px;
             margin: 0 auto;
         }
+
         &__policy {
             width: 250px;
             margin: 0 auto;
@@ -410,11 +451,22 @@
 
 @media (max-width: 380px) {
     .container {
-        padding: 0 14px;
+        padding: 10px 14px;
     }
 
     .promo {
         padding-top: 120px;
+
+        &__logo {
+            position: relative;
+            top: -100px;
+            left: 50px;
+            width: 250px;
+
+            img {
+                width: 70%;
+            }
+        }
 
         &__title {
             margin-top: 50px;
@@ -426,6 +478,7 @@
             justify-content: space-around;
         }
     }
+
 
     .title {
 
@@ -474,6 +527,7 @@
             padding-top: 90px;
         }
     }
+
     .modal {
         &__close {
             top: -20px;
