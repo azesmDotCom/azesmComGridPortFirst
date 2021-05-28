@@ -68,11 +68,11 @@
             <nav>
                 <ul class="menu__list">
                     <li class="menu__link"><a href="#">Главная</a></li>
-                    <li class="menu__link"><a href="#">Образование</a></li>
-                    <li class="menu__link"><a href="#">Портфолио</a></li>
-                    <li class="menu__link"><a href="#">Прайс-лист</a></li>
+                    <li class="menu__link"><a href="#lern">Образование</a></li>
+                    <li class="menu__link"><a href="#port">Портфолио</a></li>
+                    <li class="menu__link"><a href="#price">Прайс-лист</a></li>
                     <li class="menu__link"><a href="#cont">Мои контакты</a></li>
-                    <li class="menu__link"><a href="#">Скачать резюме</a></li>
+                    
                 </ul>
             </nav>
             <div class="menu__social">
@@ -94,7 +94,7 @@
     <section id="up" class="promo">
         <div class="container">
             <a href="#" class="promo__logo">
-                <img src="icons/logo.png" alt="">
+                <img src="icons/logo.png" alt="logo">
             </a>
             
             <div class="title title_fz16 promo__subtitle">Вёрстка и наполнение контентом вашего сайта</div>
@@ -102,8 +102,8 @@
                 Frontend разработка и техническая поддержка
             </h1>
             <div class="promo__btns">
-                <a href="#" class="promo__link btn">Портфолио</a>
-                <a href="#" class="promo__link btn_not">Резюме</a>
+                <a href="#port" class="promo__link btn">Портфолио</a>
+                <a href="#cont" class="promo__link btn_not">Заказать</a>
             </div>
         </div>
     </section>
@@ -202,7 +202,7 @@
     </section>
 
 
-    <section class="resume">
+    <section class="resume" id="lern">
         <div class="container">
             <h2 class="title title_fz16black title__section-title">Обучение</h2>
             <div class="title title_fz36black title__section-subtitle">Образование</div>
@@ -358,9 +358,9 @@
                 </div>
                 <div class="skills__item">
                     <div class="skills__item-img">
-                        <img src="icons/skills/react.svg" alt="React">
+                        <img src="icons/skills/less.svg" alt="less">
                     </div>
-                    <h3 class="title title_fz14black">React</h3>
+                    <h3 class="title title_fz14black">LESS, SASS</h3>
                     <p> Препроцессоры расширяют возможности CSS, автоматизируют рутинные операции и, следовательно,
                         ускоряют разработку.</p>
                 </div>
@@ -382,7 +382,7 @@
                 </div>
                 <div class="skills__item">
                     <div class="skills__item-img">
-                        <img src="icons/skills/js.svg" alt="Bootstrap">
+                        <img src="icons/skills/bootstrap.svg" alt="Bootstrap">
                     </div>
                     <h3 class="title title_fz14black">Bootstrap</h3>
                     <p>HTML, CSS и JS фреймворк, который используется веб-разработчиками для быстрой вёрстки адаптивных
@@ -438,7 +438,7 @@
     </section>
 
 
-    <section class="portfolio">
+    <section class="portfolio" id="port">
         <div class="container">
             <h2 class="title title_fz16black title__section-title">Портфолио</h2>
             <div class="title title_fz36black title__section-subtitle">Мои работы</div>
@@ -456,11 +456,11 @@
                     <img src="img/works/280-280-3.jpg" alt="portfolio image">
                 </a>
 
-                <a href="#" class="portfolio__item vertical">
+                <a href="http://setforweb.ru/" class="portfolio__item vertical">
                     <img src="img/works/280-565.jpg" alt="portfolio image">
                 </a>
 
-                <a href="#" class="portfolio__item">
+                <a href="http://azesm.tmweb.ru/" class="portfolio__item">
                     <img src="img/works/280-280-4.jpg" alt="portfolio image">
                 </a>
 
@@ -471,7 +471,7 @@
         </div>
     </section>
 
-    <section class="price">
+    <section class="price" id="price">
         <div class="container">
             <h2 class="title title_fz16black title__section-title">Прайс-лист</h2>
             <div class="divider"></div>
