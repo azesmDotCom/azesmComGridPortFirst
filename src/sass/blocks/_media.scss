@@ -209,7 +209,7 @@
     .promo {
         &__logo {
             position: relative;
-            top: -150px;
+            top: -50px;
             width: 250px;
 
             img {
@@ -262,12 +262,13 @@
         }
 
         &__photo {
-            display: grid;
+            display: none;
             justify-content: center;
         }
 
         &__skills {
             grid-template-columns: repeat(2, 260px);
+            margin-top: 20px;
 
             &-item {
                 grid-template-columns: 40px 200px;
