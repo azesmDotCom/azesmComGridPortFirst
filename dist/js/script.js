@@ -12,7 +12,9 @@ $(document).ready(function () {
 
     overlay.addEventListener('click', () => {
         menu.classList.remove('active');
+        document.body.style.overflow = 'hidden';
     });
+    
 
     closeElem.addEventListener('click', () => {
         menu.classList.remove('active');
